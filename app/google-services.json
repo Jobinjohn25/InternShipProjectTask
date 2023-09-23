@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225314658254",
+    "project_id": "internship-project-task",
+    "storage_bucket": "internship-project-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225314658254:android:a2b5f15060050ebb8d7d9f",
+        "android_client_info": {
+          "package_name": "com.socialseller.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjoHmoxxcIqpzY2v9u_paT9ybd_k1rTf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

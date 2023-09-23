@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InsertRecordActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:padding="5dp"
+                    android:text="Student Id"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_weight="2"
+                    android:inputType="number"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:padding="5dp"
+                    android:text="Student Name :"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtRollNo"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:text="RollNo:"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertRollNo"
+                    android:layout_width="250dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:text="Email :"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertEmail"
+                    android:layout_width="250dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp"
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:text="Phone :"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertPhone"
+                    android:layout_width="250dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="5dp"
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:text="Address :"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertaddress"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtPincode"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:text="Pincode :"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etInsertPincode"
+                    android:layout_width="250dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:inputType="number"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:textColor="@color/material_dynamic_primary10"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnInsertRecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+
+                android:text="Insert" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

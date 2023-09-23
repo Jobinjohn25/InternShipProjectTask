@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="btnLoginTxt">Login using google</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id" translatable="false">225314658254-d92lfbjb8v4roqddsc5kpeiue4d0e7a5.apps.googleusercontent.com</string>
+    <string name="please_import_file_to_see_table">Please Import File to see table</string>
+    <string name="import_csv">Import CSV</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+    <string name="databasename">DatabaseName</string>
+    <string name="insert_record">Insert Record</string>
+    <string name="student_id">Student Id</string>
+</resources>
